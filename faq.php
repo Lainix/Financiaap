@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.3. Creación de elementos HTML de forma dinámica</title>
+    <link rel="stylesheet" href="archivo.css">
+</head>
+
+<body>
+
+    <?php
+    echo "";
+    ?>
+    <div>
+        <!-- Menu -->
+        <div>
+            <ul>
+                <li><a href="index.php" class="hidden-md-up">
+                        <ul class="contact-options">
+                            <li><img src="casa-icono-silueta.png" width="20" height="20" alt="Inicio"></li>
+                        </ul>
+                    </a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="presupuestos.php">Presupuestos</a></li>
+                <li><a href="faq.php">FAQ</a></li>
+                <li><a href="valoracion.php">Valoración</a></li>
+                <li><a href="marcas.php">Marcas</a></li>              
+                <li><a href="consejos.php">Consejos Financieros</a></li>
+                <li><a href="videos.php">Vídeos</a></li>
+
+            </ul>
+        </div>
+
+        <!-- Preguntas -->
+        <div class="row5">
+            <div class="column desborde" style="background-color:#90e0ef;">
+                <div>
+                    <div>
+                        <h3>Preguntas frecuentes</h3>
+                        <hr size="2px" color="black" />
+                        <h5>¿Qué beneficios tiene utilizar Financiaap?</h5>
+                        <p>En Financiaap nos enfocamos en brindar un servicio integral y de calidad a nuestros clientes.
+                            Ofreciendo a los clientes la creación de Presupuestos, junto con la cantidad y una fecha de Fin.
+                        </p>
+                        <h5>¿Como te ayuda Financiaap app?</h5>
+                        <p>
+                            Financiaap no solo te ofrece presupuestos, te ofrece consejos y tus presupuestos siempre estan disponibles.
+                        </p>
+                        <h5>¿Tiene costo Financiaap?</h5>
+                        <p>
+                            Financiapp es totalmente gratis. 
+                            Nuestro compromiso es brindar calidad y eficacia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Funcionalidad -->
+    <script src="extension.js"></script>
+    <!-- FontaWesome -->
+    <script src="https://kit.fontawesome.com/414c860b05.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.3. Creación de elementos HTML de forma dinámica</title>
+    <link rel="stylesheet" href="archivo.css">
+</head>
+
+<body>
+
+    <?php
+    echo "";
+    ?>
+    <div>
+        <!-- Menu -->
+        <div>
+            <ul>
+                <li><a href="index.php" class="hidden-md-up">
+                        <ul class="contact-options">
+                            <li><img src="casa-icono-silueta.png" width="20" height="20" alt="Inicio"></li>
+                        </ul>
+                    </a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="presupuestos.php">Presupuestos</a></li>
+                <li><a href="faq.php">FAQ</a></li>
+                <li><a href="valoracion.php">Valoración</a></li>
+                <li><a href="marcas.php">Marcas</a></li>              
+                <li><a href="consejos.php">Consejos Financieros</a></li>
+                <li><a href="videos.php">Vídeos</a></li>
+
+            </ul>
+        </div>
+
+        <!-- Valoración -->
+        <div class="row5">
+    <div class="column desborde" style="background-color:#caf0f8;">
+      <div>
+        <h4>Tu opinión es importante ¿Qué te ha parecido nuestro servicio?</h4>
+        <hr size="2px" color="black" />
+        <p>Para brindar un exclente servicio y productos de calidad, necesitamos de tu valoración en los siguientes
+          campos:</p>
+        <h5 class="evaluacion">Atención al cliente:</h5>
+        <form>
+          <p class="clasificacion">
+            <input id="radio1" type="radio" name="estrellas" value="5">
+            <!--
+              --><label for="radio1">★</label>
+            <!--
+              --><input id="radio2" type="radio" name="estrellas" value="4">
+            <!--
+              --><label for="radio2">★</label>
+            <!--
+              --><input id="radio3" type="radio" name="estrellas" value="3">
+            <!--
+              --><label for="radio3">★</label>
+            <!--
+              --><input id="radio4" type="radio" name="estrellas" value="2">
+            <!--
+              --><label for="radio4">★</label>
+            <!--
+              --><input id="radio5" type="radio" name="estrellas" value="1">
+            <!--
+              --><label for="radio5">★</label>
+          </p>
+        </form>
+        <h5 class="evaluacion">Inovación y calidad de los productos y servicios:</h5>
+        <form>
+          <p class="clasificacion">
+            <input id="radio1" type="radio" name="estrellas" value="5">
+            <!--
+              --><label for="radio1">★</label>
+            <!--
+              --><input id="radio2" type="radio" name="estrellas" value="4">
+            <!--
+              --><label for="radio2">★</label>
+            <!--
+              --><input id="radio3" type="radio" name="estrellas" value="3">
+            <!--
+              --><label for="radio3">★</label>
+            <!--
+              --><input id="radio4" type="radio" name="estrellas" value="2">
+            <!--
+              --><label for="radio4">★</label>
+            <!--
+              --><input id="radio5" type="radio" name="estrellas" value="1">
+            <!--
+              --><label for="radio5">★</label>
+          </p>
+        </form>
+        <h5 class="evaluacion">Beneficios obtenidos en las finanzas:</h5>
+        <form>
+          <p class="clasificacion">
+            <input id="radio1" type="radio" name="estrellas" value="5">
+            <!--
+              --><label for="radio1">★</label>
+            <!--
+              --><input id="radio2" type="radio" name="estrellas" value="4">
+            <!--
+              --><label for="radio2">★</label>
+            <!--
+              --><input id="radio3" type="radio" name="estrellas" value="3">
+            <!--
+              --><label for="radio3">★</label>
+            <!--
+              --><input id="radio4" type="radio" name="estrellas" value="2">
+            <!--
+              --><label for="radio4">★</label>
+            <!--
+              --><input id="radio5" type="radio" name="estrellas" value="1">
+            <!--
+              --><label for="radio5">★</label>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+    </div>
+
+    <!-- Funcionalidad -->
+    <script src="extension.js"></script>
+    <!-- FontaWesome -->
+    <script src="https://kit.fontawesome.com/414c860b05.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
