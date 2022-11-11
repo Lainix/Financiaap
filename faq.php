@@ -18,7 +18,7 @@
         <!-- Menu -->
         <div>
             <ul>
-                <li><a href="index.php" class="hidden-md-up">
+                <li><a href="index.html" class="hidden-md-up">
                         <ul class="contact-options">
                             <li><img src="casa-icono-silueta.png" width="20" height="20" alt="Inicio"></li>
                         </ul>
@@ -27,7 +27,7 @@
                 <li><a href="presupuestos.php">Presupuestos</a></li>
                 <li><a href="faq.php">FAQ</a></li>
                 <li><a href="valoracion.php">Valoración</a></li>
-                <li><a href="marcas.php">Marcas</a></li>              
+                <li><a href="marcas.php">Marcas</a></li>
                 <li><a href="consejos.php">Consejos Financieros</a></li>
                 <li><a href="videos.php">Vídeos</a></li>
 

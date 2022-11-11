@@ -19,7 +19,7 @@
      <!-- Menu -->
      <div>
             <ul>
-                <li><a href="index.php" class="hidden-md-up">
+                <li><a href="index.html" class="hidden-md-up">
                         <ul class="contact-options">
                             <li><img src="casa-icono-silueta.png" width="20" height="20" alt="Inicio"></li>
                         </ul>
