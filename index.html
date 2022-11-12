@@ -6,6 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <style>
+    #casa {
+      border: 1px solid #2e518b;
+      /*anchura, estilo y color borde*/
+      padding: 10px;
+      /*espacio alrededor texto*/
+      background-color: #2e518b;
+      /*color botón*/
+      color: #ffffff;
+      /*color texto*/
+      text-decoration: none;
+      /*decoración texto*/
+      text-transform: uppercase;
+      /*capitalización texto*/
+      font-family: 'Helvetica', sans-serif;
+      /*tipografía texto*/
+      border-radius: 10px;
+      /*bordes redondos*/
+    }
+  </style>
 </head>
 
 <body background="https://www.cetys.mx/educon/wp-content/uploads/2021/04/1500x844_decidir_finanzas_empresa.jpg">
@@ -15,7 +35,7 @@
         <div class="columns is-vcentered">
           <div class="column is-4 is-offset-4">
             <div>
-            <form action="home.html" method="post">
+              <form action="home.html" method="post">
                 <div>
                   <div class="flex-card auth-card is-light-raised light-bordered card-overflow">
                     <div class="auth-card-header header-primary is-dark">
@@ -32,7 +52,7 @@
                       </div>
                     </div>
                     <div class="pt-10 pb-10">
-                      <a href="home.html">Ingresar</a>
+                      <a id="casa" href="home.html">Ingresar</a>
                     </div>
                   </div>
               </form>
